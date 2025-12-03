@@ -41,10 +41,14 @@ GET /tasks 200 1.113 ms - 198
 DELETE /tasks/441a7817-75dc-4380-92a1-529ca36fef9f 200 0.875 ms - 230
  PASS  tests/tasks.test.js
   Task Manager API                                                                                   
-    √ POST /tasks - create task (55 ms)                                                              
-    √ GET /tasks/:id - retrieve task (11 ms)                                                         
+    √ POST /tasks - create task (55 ms)
+    
+    √ GET /tasks/:id - retrieve task (11 ms) 
+    
     √ PUT /tasks/:id - update task (11 ms)
+    
     √ GET /tasks - list tasks (9 ms)
+    
     √ DELETE /tasks/:id - delete task (9 ms)
 
 Test Suites: 1 passed, 1 total
